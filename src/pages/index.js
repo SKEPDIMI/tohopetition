@@ -13,7 +13,7 @@ const IndexPage = () => {
     <SEO title="Home" />
     <h1>Tohopekaliga 2020 Graduation</h1>
     <h2>Petition Email Portal</h2>
-    <em>Click here to view <a target="_blank" href="https://www.change.org/p/tohopekaliga-high-school-administration-having-a-graduation-ceremony-for-the-tohopekaliga-class-of-2020-students?recruiter=1123312854&utm_source=share_petition&utm_medium=copylink&utm_campaign=tap_basic_share&utm_term=G%3ESearch%3ESAP%3EUS%3ENonBrand%3EExact">the petition</a></em>
+    <em>Click here to view <a target="_blank" href="https://www.change.org/p/tohopekaliga-high-school-administration-having-a-graduation-ceremony-for-the-tohopekaliga-class-of-2020-students?recruiter=1123312854&utm_source=share_petition&utm_medium=copylink&utm_campaign=tap_basic_share&utm_term=G%3ESearch%3ESAP%3EUS%3ENonBrand%3EExact">the petition </a><strong>(over 200 signatures, and counting!)</strong></em>
     <p></p>
     <blockquote>
       "Our school, like others, has tried to make an alternative event. Toho’s idea of a ceremony like parade of cars is not well thought out and quite frankly is not what we would like as our graduation. Their idea is not safe."
@@ -82,17 +82,17 @@ const IndexPage = () => {
         <hr/>
         <p>Copy and send the message above to the following emails, by clicking on them. Go Tigers!</p>
 
-        <h2><strong>District Email</strong></h2>
-        <a href="mailto:sdoccrml@osceola.k12.fl.us">Disctrict Email</a> 
+        <h2><strong>District Email (sdoccrml@osceola.k12.fl.us)</strong></h2>
+        <a href="mailto:sdoccrml@osceola.k12.fl.us">Click to email Disctrict Email</a> 
 
-        <h2><strong>Superintendent Debra Pace's Email</strong></h2>
-        <a href="mailto:debra.pace@osceolaschools.net">Superintendent's Email</a> 
+        <h2><strong>Superintendent Debra Pace's Email (debra.pace@osceolaschools.net)</strong></h2>
+        <a href="mailto:debra.pace@osceolaschools.net">Click to email Superintendent's Email</a> 
 
-        <h2><strong>Tohopekaliga Principal's Email</strong></h2>
-        <a href="mailto:debra.pace@osceolaschools.net">David Phelps' Email</a> 
+        <h2><strong>Tohopekaliga Principal's Email (David.Phelps@osceolaschools.net)</strong></h2>
+        <a href="mailto:David.Phelps@osceolaschools.net">Click to email David Phelps' Email</a> 
 
-        <h2><strong>Tohopekaliga staff, Mr.Todd</strong></h2>
-        <a href="mailto:Christopher.Todd@osceolaschools.net">Mr.Todd's Email</a> 
+        <h2><strong>Tohopekaliga Vice Principal's Email (Christopher.Todd@osceolaschools.net)</strong></h2>
+        <a href="mailto:Christopher.Todd@osceolaschools.net">Click to email Christopher Todd's Email</a> 
 
       </div>
     )}
