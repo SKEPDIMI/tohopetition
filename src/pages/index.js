@@ -13,13 +13,13 @@ const IndexPage = () => {
     <SEO title="Home" />
     <h1>Tohopekaliga 2020 Graduation</h1>
     <h2>Petition Email Portal</h2>
-    <em>Click here to view <a target="_blank" href="https://www.change.org/p/tohopekaliga-high-school-administration-having-a-graduation-ceremony-for-the-tohopekaliga-class-of-2020-students?recruiter=1123312854&utm_source=share_petition&utm_medium=copylink&utm_campaign=tap_basic_share&utm_term=G%3ESearch%3ESAP%3EUS%3ENonBrand%3EExact">the petition </a><strong>(over 200 signatures, and counting!)</strong></em>
+    <em>Click here to view <a target="_blank" href="https://www.change.org/p/tohopekaliga-high-school-administration-having-a-graduation-ceremony-for-the-tohopekaliga-class-of-2020-students?recruiter=1123312854&utm_source=share_petition&utm_medium=copylink&utm_campaign=tap_basic_share&utm_term=G%3ESearch%3ESAP%3EUS%3ENonBrand%3EExact">the petition that influened this site </a><strong>(over 200 signatures, and counting!)</strong></em>
     <p></p>
     <blockquote>
       "Our school, like others, has tried to make an alternative event. Toho’s idea of a ceremony like parade of cars is not well thought out and quite frankly is not what we would like as our graduation. Their idea is not safe."
     </blockquote>
     <p>
-      I'm going to keep this simple. This website will generate for you a template with your personal information, in order for students, and parents of students, <strong>to contact Tohopekaliga staff, and influence the upcoming, class of 2020, graduation ceremony.</strong>
+      The purpose of this tool is simple: it will generate a customized message with your information, for students (and parents/peers of students), <strong>to contact Tohopekaliga/district staff, and influence the upcoming class of 2020 graduation ceremony.</strong>
     </p>
     {status === 1 && <div>
       <p>
@@ -51,6 +51,7 @@ const IndexPage = () => {
           <option value="a parent of a student at Tohopekaliga High School">Parent</option>
           <option value="a peer of one of your senior students at Tohopekaliga High School">Peer or friend of student</option>
         </select>
+        <p/>
         <button type="submit">
           GENERATE MESSAGE
         </button>
@@ -82,18 +83,21 @@ const IndexPage = () => {
         <hr/>
         <p>Copy and send the message above to the following emails, by clicking on them. Go Tigers!</p>
 
-        <h2><strong>District Email (sdoccrml@osceola.k12.fl.us)</strong></h2>
+        <h2><strong>District Email <small>(sdoccrml@osceola.k12.fl.us)</small></strong></h2>
         <a href="mailto:sdoccrml@osceola.k12.fl.us">Click to email Disctrict Email</a> 
+        <p/>
 
-        <h2><strong>Superintendent Debra Pace's Email (debra.pace@osceolaschools.net)</strong></h2>
+        <h2><strong>Superintendent Debra Pace's Email <small>(debra.pace@osceolaschools.net)</small></strong></h2>
         <a href="mailto:debra.pace@osceolaschools.net">Click to email Superintendent's Email</a> 
+        <p/>
 
-        <h2><strong>Tohopekaliga Principal's Email (David.Phelps@osceolaschools.net)</strong></h2>
+        <h2><strong>Tohopekaliga Principal's Email <small>(David.Phelps@osceolaschools.net)</small></strong></h2>
         <a href="mailto:David.Phelps@osceolaschools.net">Click to email David Phelps' Email</a> 
+        <p/>
 
-        <h2><strong>Tohopekaliga Vice Principal's Email (Christopher.Todd@osceolaschools.net)</strong></h2>
+        <h2><strong>Tohopekaliga Vice Principal's Email <small>(Christopher.Todd@osceolaschools.net)</small></strong></h2>
         <a href="mailto:Christopher.Todd@osceolaschools.net">Click to email Christopher Todd's Email</a> 
-
+        <p/>
       </div>
     )}
     
