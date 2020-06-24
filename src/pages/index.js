@@ -18,9 +18,19 @@ const IndexPage = () => {
     <blockquote>
       "Our school, like others, has tried to make an alternative event. Toho’s idea of a ceremony like parade of cars is not well thought out and quite frankly is not what we would like as our graduation. Their idea is not safe."
     </blockquote>
-    <p>
-      The purpose of this tool is simple: it will generate a customized message with your information, for students (and parents/peers of students), <strong>to contact Tohopekaliga/district staff, and influence the upcoming class of 2020 graduation ceremony.</strong>
-    </p>
+    <div
+    style={{
+      background: "rebeccapurple",
+      color: "white",
+      padding: "1em 2em",
+      margin: "2em auto",
+      borderRadius: "1em",
+    }}
+    >
+      <p>
+        The purpose of this tool is simple: it will generate a customized message with your information, for students (and parents/peers of students), <strong>to contact Tohopekaliga & district staff, and influence the upcoming class of 2020 graduation ceremony.</strong>
+      </p>
+    </div>
     {status === 1 && <div>
       <p>
         It's easy to do, and you will be <strong>directly helping</strong> in making a change. Here's how it works:
@@ -30,7 +40,7 @@ const IndexPage = () => {
       <li>Copy the generated message</li>
       <li>Send the message to the provided staff email addresses</li>
       </ol>
-      <p>Simple, no? Get started by filling in the form below. 👇👇👇</p>
+      <p><strong>Simple, no? Get started by filling in the form below.</strong> 👇👇👇</p>
     </div>
   }
 
