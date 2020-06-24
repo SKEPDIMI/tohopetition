@@ -91,6 +91,9 @@ const IndexPage = () => {
         <h2><strong>Tohopekaliga Principal's Email</strong></h2>
         <a href="mailto:debra.pace@osceolaschools.net">David Phelps' Email</a> 
 
+        <h2><strong>Tohopekaliga staff, Mr.Todd</strong></h2>
+        <a href="mailto:Christopher.Todd@osceolaschools.net">Mr.Todd's Email</a> 
+
       </div>
     )}
     
